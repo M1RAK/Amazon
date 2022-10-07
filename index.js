@@ -74,3 +74,5 @@ app.get("/search/:searchQuery", async (req, res) => {
 })
 
 app.listen(PORT, () => console.log("server running on port 5000..."))
+
+module.exports = app
